@@ -1,0 +1,92 @@
+/* RWD */
+@media (max-width: 768px) {
+    .container {
+        width: 672px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        list-style: 32px;
+    }
+
+    .ad-2 .container {
+        width: 696px;
+        margin: 0, auto;
+    }
+
+    .ad-banner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ad-banner-item {
+        padding-bottom: 24px;
+    }
+
+    .customer-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px
+    }
+
+    .customer-card-item {
+        width: 48%;
+    }
+
+    .info-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        /* 將 gap 移到父元素 */
+    }
+
+    .info-card-item {
+        width: 48%;
+    }
+
+    .ad-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ad-1 .container {
+        width: 336px;
+        margin: 0 auto;
+    }
+
+    .ad-card li {
+        width: 100%;
+    }
+
+    .nav-social-media img {
+        width: 40px;
+        height: auto;
+    }
+
+    .nav-social-media {
+        margin-right: 16px;
+    }
+
+    .footer {
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
+
+    .shopping-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .shopping-item {
+        width: 48px;
+    }
+
+    .location-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .location-card-item {
+        width: 48%;
+    }
+}
