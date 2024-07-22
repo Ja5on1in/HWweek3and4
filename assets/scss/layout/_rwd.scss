@@ -26,20 +26,30 @@
     .customer-card {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px
+        gap: 24px;
     }
 
     .customer-card-item {
         width: 48%;
+        height:auto;
     }
 
     .info-card {
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        /* 將 gap 移到父元素 */
     }
 
+    .shopping-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .shopping-item {
+        width: 48%; /* 調整為合理的寬度 */
+        margin: 1%; /* 添加間距以確保換行 */
+        box-sizing: border-box; /* 確保盒模型正確 */
+    }
     .info-card-item {
         width: 48%;
     }
@@ -72,14 +82,14 @@
         padding-bottom: 40px;
     }
 
-    .shopping-section {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    // .shopping-section {
+    //     display: flex;
+    //     flex-wrap: wrap;
+    // }
 
-    .shopping-item {
-        width: 48px;
-    }
+    // .shopping-item {
+    //     width: 48%;
+    // }
 
     .location-card {
         display: flex;
