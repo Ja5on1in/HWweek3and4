@@ -561,9 +561,14 @@ a {
   padding: 24px;
 }
 
+.pe-3 {
+  padding-right: 24px;
+}
+
 .pe-5 {
   padding-right: 64px;
 }
+
 
 .pt-1 {
   padding-top: 25px;
@@ -634,6 +639,10 @@ a {
     width: 672px;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   .nav-link {
     font-size: 20px;
     list-style: 32px;
@@ -667,7 +676,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    /* 將 gap 移到父元素 */
+
   }
 
   .info-card-item {
@@ -708,7 +717,7 @@ a {
   }
 
   .shopping-item {
-    width: 48px;
+    width: 46%;
   }
 
   .location-card {
